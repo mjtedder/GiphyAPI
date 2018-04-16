@@ -1,2 +1,2 @@
-# GiphyStickers
-A sticker search app using GIPHY APIs
+# GiphyAPI
+A Giphy search app using GIPHY APIs
