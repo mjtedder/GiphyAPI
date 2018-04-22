@@ -1,5 +1,9 @@
+<!--todo: add bootstrap 4 framework-->
+<!--todo: add media queries, responsiveness, update list of gifs with ten new-->
+<!--todo: see gitlab for bonus components to add later-->
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,18 +11,36 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>GIPHY Sticker Search</title>
 </head>
+
 <body>
-    <div id="buttons-view"></div>
-    <div id="gifs-appear-here"></div>
-    <button id ="topic-add-submit">Submit</button>
+  <!--Buttons appear here-->
+  <div id="buttons-view"></div>
+  <br>
+  <br>
+  <br>
+  <!--Form to add gifs-->
+  <form id="gif-form">
+    <label for="gif-input">Add your topic</label>
+    <input type="text" id="gif-input">
+    <br>
+  <!--Button triggers new gif topics to be added-->
+    <input id="add-gif" type="submit" value="Submit">
+  </form>
+  <br>
+  <br>
+  <br>
+  <!--GIFs dumped here-->
+  <div id="gifs-appear-here"></div>
 
 
 
-  </div>
-<!-- Linking jQuery-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!--Linking JavaScript-->
-<script src="assets/javascript/app.js"></script>
+
+
+
+  <!-- Linking jQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!--Linking JavaScript-->
+  <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
